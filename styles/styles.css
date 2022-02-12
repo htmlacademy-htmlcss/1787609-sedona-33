@@ -202,11 +202,6 @@ body {
   height: 384px;
 }
 
-.advantages-group_2 {
-  display: flex;
-  justify-content: space-between;
-}
-
 .search {
   text-align: center;
   background-color: #ffffff;
