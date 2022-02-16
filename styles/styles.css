@@ -137,7 +137,6 @@ body {
   background-color: #ffffff;
 }
 
-.advantages-list,
 .features-list,
 .advantages-list-continuation {
   margin: 0;
@@ -145,10 +144,6 @@ body {
   list-style: none;
   display: flex;
   justify-content: space-between;
-}
-
-.advantages-list {
-  flex-wrap: wrap;
 }
 
 .advantages-head {
@@ -162,7 +157,9 @@ body {
   display: flex;
 }
 
-.advantages-item {
+.advantages-item,
+.features-item,
+.advantages-head {
   text-align: center;
 }
 
