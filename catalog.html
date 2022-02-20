@@ -34,13 +34,13 @@
         </ul>
         <div class="navigation-user">
           <a class="navigation-search" href="#">
-            <span class="visuually-hidden"> Поиск </span>
+            <span class="visually-hidden"> Поиск </span>
           </a>
           <a class="navigation-favourites" href="#">
-            <span class="visuually-hidden"> Избранное </span>
+            <span class="visually-hidden"> Избранное </span>
             <span class="badge">12</span>
           </a>
-          <a class="button" href="#"> Хочу сюда! </a>
+          <a class="button navigation-button" href="#"> Хочу сюда! </a>
         </div>
       </nav>
     </header>
@@ -50,7 +50,10 @@
           <h1 class="inner-header-title">Гостиницы Седоны</h1>
           <ul class="breadcrumbs">
             <li class="breadcrumbs-item">
-              <a class="breadcrumbs-link" href="index.html">
+              <a
+                class="breadcrumbs-link breadcrumbs-link-icon"
+                href="index.html"
+              >
                 <span class="visually-hidden">Главная</span>
               </a>
             </li>
@@ -257,9 +260,11 @@
             <b class="product-card-rating">Рейтинг: 9,2</b>
           </li>
         </ul>
-        <button class="button pagination-show-more" type="button">
-          Загрузить ещё
-        </button>
+        <div class="button-block">
+          <button class="button pagination-show-more" type="button">
+            Загрузить ещё
+          </button>
+        </div>
         <div class="selection-bottom">
           <ul class="pagination">
             <li class="pagination-item">
@@ -281,18 +286,21 @@
               <a class="pagination-link" href="#">10</a>
             </li>
           </ul>
-          <label class="select-label">Гостиниц на странице:</label>
-          <select class="select-number">
-            <option value="4" selected>4</option>
-            <option value="8">8</option>
-            <option value="12">12</option>
-          </select>
+          <div class="select-block">
+            <label class="select-label">Гостиниц на странице:</label>
+            <select class="select-number">
+              <option value="4" selected>4</option>
+              <option value="8">8</option>
+              <option value="12">12</option>
+            </select>
+          </div>
         </div>
       </section>
       <section class="subscription-catalog">
-        <h2 class="subscription-title">Подпишитесь на рассылку</h2>
+        <h2 class="subscription-title-catalog">Подпишитесь на рассылку</h2>
         <p class="subscription-description">
-          Только полезная информация и никакого спама, честное бойскаутское!
+          Только полезная информация и никакого спама,<br />
+          честное бойскаутское!
         </p>
         <form
           class="newletter-form"
