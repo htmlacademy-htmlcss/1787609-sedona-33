@@ -106,9 +106,14 @@ body {
   background-color: #615048;
 }
 
-.navigation-button:active {
+.navigation-button:focus {
   background-color: #615048;
   border: 3px solid #83b3d3;
+}
+
+.navigation-button:active {
+  background-color: #615048;
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .navigation-link-icon {
@@ -148,7 +153,7 @@ body {
   fill: #756257;
 }
 
-.navigation-link-iconh:active .navigation-icon {
+.navigation-link-icon:active .navigation-icon {
   fill: #756257;
   opacity: 0.3;
 }
@@ -501,6 +506,11 @@ body {
   box-sizing: border-box;
   border-radius: 10px;
 }
+
+.footer-phone:active {
+  color: rgba(117, 98, 87, 0.3);
+}
+
 .footer-logo-svg {
   color: #000000;
   width: 160px;
@@ -521,6 +531,10 @@ body {
   border-radius: 10px;
 }
 
+.footer-logo-svg:active {
+  color: rgba(117, 98, 87, 0.3);
+}
+
 .footer-logo {
   max-width: 120px;
   height: 34px;
@@ -534,6 +548,7 @@ body {
   background-size: 100% auto;
   padding-top: 35px;
   padding-bottom: 83px;
+  margin-top: -10px;
 }
 
 .inner-header,
